@@ -39,7 +39,7 @@ def turn(board)
     move(board, input_to_index)
     display_board(board)
   else 
-    turn(board) and return
+    turn(board) 
 end
 display_board(board)
 end
