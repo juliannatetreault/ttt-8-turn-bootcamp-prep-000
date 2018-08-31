@@ -32,7 +32,7 @@ end
   board[index] = character
 end
 
-def turn(board)
+def turn(board, input_to_index)
   puts "Please enter 1-9:"
   user_input = gets.strip
   if valid_move?(board, input_to_index)
