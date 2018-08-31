@@ -41,4 +41,5 @@ def turn(board)
   else 
     turn(board) and return
 end
+display_board(board)
 end
